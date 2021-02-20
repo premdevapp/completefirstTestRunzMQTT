@@ -1,0 +1,20 @@
+{
+  "name": "mqtt19022021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "client": "node client.js",
+    "concurrently": "concurrently \"node client.js\" \"node server.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "mqtt": "^4.2.6",
+    "readline": "^1.3.0"
+  }
+}
